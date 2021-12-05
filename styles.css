@@ -1,10 +1,9 @@
 * { margin: 0; padding: 0; }
 
-.container {
+.board-container {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     width: fit-content;
-    border-collapse: collapse;
 }
 
 .play-tile{
@@ -13,6 +12,5 @@
     align-items: center;
     justify-content: center;
     border: solid black 0.5px;
-
 }
 
