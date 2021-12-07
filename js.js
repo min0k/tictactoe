@@ -3,12 +3,6 @@
 const board = document.querySelector(".board-container");
 const boardTiles = document.querySelectorAll(".play-tile");
 
-
-
-
-
-
-
 // Players
 const Player = (playerName) => {
     let getName = console.log(playerName);
