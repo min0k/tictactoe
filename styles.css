@@ -1,5 +1,9 @@
 * { margin: 0; padding: 0; }
 
+body{
+    margin: 10px;
+}
+
 .board-container {
     display: grid;
     grid-template-columns: repeat(3, 100px);
@@ -12,5 +16,10 @@
     align-items: center;
     justify-content: center;
     border: solid black 0.5px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
 }
 
