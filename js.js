@@ -1,5 +1,6 @@
 // grab html elements
 
+// Maybe move these to relevant factory functions/modules?
 const board = document.querySelector(".board-container");
 const boardTiles = document.querySelectorAll(".play-tile");
 const body = document.querySelector("body");
@@ -8,6 +9,8 @@ const body = document.querySelector("body");
 
 
 // Players
+
+// Implement ability to choose username
 const Player = (playerName) => {
     const getName = () => console.log(playerName);
     return {getName}
@@ -22,6 +25,8 @@ const ticTacToe = (() => {
 
 
 // Game board
+
+// Move a bunch of stuff here to Game Logic.
 const gameBoard = (() => {
 
     const newGameButton = document.querySelector("button");
